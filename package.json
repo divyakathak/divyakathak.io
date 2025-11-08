@@ -1,29 +1,27 @@
-
 {
   "name": "dance-studio",
   "version": "0.1.0",
   "private": true,
-  "dependencies": {
-    "gsap": "^3.13.0",
-    "react": "^19.2.0",
-    "react-dom": "^19.2.0",
-    "react-scripts": "5.0.1",
-    "swiper": "^12.0.3"
-  },
   "homepage": "https://divyakathak.github.io",
+  "dependencies": {
+    "gsap": "^3.12.2",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "swiper": "^10.0.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^5.0.0",
+    "tailwindcss": "^4.1.17",
+    "postcss": "^8.4.27",
+    "autoprefixer": "^10.4.14"
+  },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-
-  },
-  "browserslist": [
-    "last 2 versions",
-    "> 0.2%",
-    "not dead",
-    "not op_mini all"
-  ]
+    "deploy": "gh-pages -d build"
+  }
 }
