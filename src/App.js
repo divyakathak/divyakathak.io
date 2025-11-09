@@ -12,18 +12,21 @@ function App() {
   return (
     <HashRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
+        <Route
+          path="/"
+          element={
+            <>
+              <Hero />
+              <Classes />
+              <Gallery />
+              <Events />
+              <Contact />
+            </>
+          }
+        />
         <Route path="/about" element={<About />} />
       </Routes>
     </HashRouter>
-    <div>
-      <Hero />
-      <Classes />
-      <Gallery />
-      <Events />
-      <Contact />
-      
-    </div>
   );
 }
 
