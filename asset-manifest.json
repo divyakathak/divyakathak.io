@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dance-studio/static/css/main.083bb896.css",
+    "main.js": "/dance-studio/static/js/main.fc4bd42b.js",
+    "static/media/slide1.JPG": "/dance-studio/static/media/slide1.92e06555598b200acc9f.JPG",
+    "static/media/gallery8.JPG": "/dance-studio/static/media/gallery8.0c6540bf74ff59d2d2cf.JPG",
+    "static/media/class3.JPG": "/dance-studio/static/media/class3.0b7452c131e13e0b9acb.JPG",
+    "static/media/class1.JPG": "/dance-studio/static/media/class1.e822e85853aacda6e823.JPG",
+    "static/media/slide3.JPG": "/dance-studio/static/media/slide3.593dff2ef75e1fd9cbed.JPG",
+    "static/media/offline.JPG": "/dance-studio/static/media/offline.d55a33b08d3b6cde82b5.JPG",
+    "static/media/slide2.JPG": "/dance-studio/static/media/slide2.d55a33b08d3b6cde82b5.JPG",
+    "static/media/class2.JPG": "/dance-studio/static/media/class2.618e35bde172e9bb3a17.JPG",
+    "static/media/summercmp.jpg": "/dance-studio/static/media/summercmp.cc3bd1a10118ff3f0262.jpg",
+    "static/media/hip.jpg": "/dance-studio/static/media/hip.b260cb7fa4959818a463.jpg",
+    "index.html": "/dance-studio/index.html",
+    "main.083bb896.css.map": "/dance-studio/static/css/main.083bb896.css.map",
+    "main.fc4bd42b.js.map": "/dance-studio/static/js/main.fc4bd42b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.083bb896.css",
+    "static/js/main.fc4bd42b.js"
+  ]
+}
