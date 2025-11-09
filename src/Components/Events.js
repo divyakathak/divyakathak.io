@@ -1,24 +1,29 @@
 import React, { useEffect, useRef } from "react";
 import { gsap } from "gsap";
 
+// Import images from Assets
+import summerCamp from "../Assets/summercmp.jpg";
+import online from "../Assets/online.jpg";
+import offline from "../Assets/offline.JPG";
+
 const events = [
   {
     title: "Summer Dance Camp",
     date: "NOT AVAILABLE NOW",
     description: "Learn Kathak, Hip-Hop in a fun summer camp!",
-    image: "/images/summercmp.jpg",
+    image: summerCamp,
   },
   {
     title: "Online Dance Workshop",
     date: "SOON",
     description: "Join our live online sessions from anywhere in the world.",
-    image: "/images/online.jpg",
+    image: online,
   },
   {
     title: "Classical Dance Workshop",
     date: "SOON",
     description: "Master classical moves with our professional instructors.",
-    image: "/images/offline.jpg",
+    image: offline,
   },
 ];
 
