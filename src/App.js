@@ -4,7 +4,6 @@ import Events from "./Components/Events";
 import Classes from "./Components/Classes";
 import Photo from "./Components/Photo"; // Photos from src/Assets
 import Contact from "./Components/Contact";
-<<<<<<< HEAD
 
 function App() {
   return (
@@ -16,25 +15,11 @@ function App() {
 
       {/* Sections */}
       <main>
-        <section id="hero">
-          <Hero />
-        </section>
-
-        <section id="events">
-          <Events />
-        </section>
-
-        <section id="classes">
-          <Classes />
-        </section>
-
-        <section id="photo">
-          <Photo />
-        </section>
-
-        <section id="contact">
-          <Contact />
-        </section>
+        <section id="hero"><Hero /></section>
+        <section id="events"><Events /></section>
+        <section id="classes"><Classes /></section>
+        <section id="photo"><Photo /></section>
+        <section id="contact"><Contact /></section>
       </main>
 
       {/* Footer */}
@@ -42,31 +27,6 @@ function App() {
         © 2025 Dance Studio. All rights reserved.
       </footer>
     </div>
-=======
-import { HashRouter, Routes, Route } from "react-router-dom";
-import Home from "./Home";
-import About from "./About";
-
-function App() {
-  return (
-    <HashRouter>
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <Hero />
-              <Classes />
-              <Gallery />
-              <Events />
-              <Contact />
-            </>
-          }
-        />
-        <Route path="/about" element={<About />} />
-      </Routes>
-    </HashRouter>
->>>>>>> f72057bcccbfe95be52e9ce98c0630a111824742
   );
 }
 
