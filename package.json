@@ -2,7 +2,7 @@
   "name": "dance-studio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://divyakathak.github.io",
+  "homepage": "https://divyakathak.github.io/dance-studio",
   "dependencies": {
     "gsap": "^3.12.2",
     "react": "^18.2.0",
